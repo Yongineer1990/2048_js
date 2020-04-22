@@ -1,0 +1,32 @@
+.table {
+  /* 
+    border-collapse: -> 테이블의 테두리와 셀의 테두리의 간격을 어떻게 처리할지 정함
+    collapse -> 간격 없에고 겹치는 부분은 한줄로 처리
+    separate -> 간격을 둠
+    initial -> 기본값
+    inherit -> 부모 속성 상속 
+    */
+  border-collapse: collapse;
+
+  /* 
+    user-select: -> 브라우저에서 클릭, 더블클릭으로 텍스트 선택 처리를 정함
+    auto -> 브라우저에서 허용시 가능
+    all -> 클릭만으로 선택 가능
+    none -> 선택불가
+    text -> 가능
+    */
+  user-select: none;
+}
+
+.table td {
+  border: 5px solid black;
+  width: 150px;
+  height: 150px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.score {
+  user-select: none;
+}
