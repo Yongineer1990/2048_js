@@ -1,5 +1,5 @@
 # 2048_js
-> Html, CSS, JavaScript
+> HTML, CSS, JavaScript
 
 ## Todos
 
